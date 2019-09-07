@@ -1,7 +1,6 @@
 mysql:
   host: '127.0.0.1'
   port: 3306
-  database: demodb
   username: 'root'
   password: 'root123456'
 spring:
@@ -15,16 +14,13 @@ spring:
   profiles: dev
 mysql:
   host: mysql
-  database: demodb
 ---
 spring:
   profiles: prod
 mysql:
   host: mysql
-  database: demodb_prod
 ---
 spring:
   profiles: test
 mysql:
   host: mysql
-  database: demodb_test
