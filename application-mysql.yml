@@ -30,4 +30,5 @@ spring:
 
 mysql:
   host: localhost
-  password: 'Qweqwe#24'
+  username: 'haitao'
+  password: 'haitao'
