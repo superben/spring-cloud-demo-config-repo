@@ -24,3 +24,10 @@ spring:
   profiles: test
 mysql:
   host: mysql
+---
+spring:
+  profiles: local
+
+mysql:
+  host: localhost
+  password: 'Qweqwe#24'
