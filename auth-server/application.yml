@@ -13,3 +13,5 @@ spring.profiles.include:
   - mysql
   - undertow
   - feign
+mysql:
+  database: auth_db
