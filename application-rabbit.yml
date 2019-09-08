@@ -25,3 +25,8 @@ spring:
   profiles: test
 rabbit:
   host: rabbitmq
+---
+spring:
+  profiles: local
+rabbit:
+  password: 'rabbit1234'
