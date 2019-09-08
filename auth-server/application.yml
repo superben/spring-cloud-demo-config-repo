@@ -17,11 +17,6 @@ spring.profiles.include:
 mysql:
   database: auth_db
 
-security:
-  oauth2:
-    client:
-      registeredRedirectUri: ${REDIRECT_RUI:http://www.demo.com}
-
 ---
 spring:
   profiles: local
